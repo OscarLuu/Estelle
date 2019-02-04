@@ -3,17 +3,21 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="navbar">
-      <div className="nav-items">
-        <a className="block" href="#">
-          H<p id="home-hidden">OME</p>
-        </a>
-        <a className="block" href="#">
-          E
-        </a>
-        <a className="block" href="#">
-          C
-        </a>
+    <div>
+      <div className="navbar">
+        <img src={require("../svg/heart.png")} className="nav-heart" />
+
+        <div className="nav-items">
+          <Link className="block" to="/">
+            H<p className="hidden">OME</p>
+          </Link>
+          <Link className="block" to="/experience">
+            E<p className="hidden">XPERIENCE</p>
+          </Link>
+          <Link className="block" to="/">
+            C<p className="hidden">ONTACT</p>
+          </Link>
+        </div>
       </div>
     </div>
   );
