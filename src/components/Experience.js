@@ -36,12 +36,12 @@ class Experience extends Component {
       <div className="home">
         <div className="experience">
           <p className="title">EXPERIENCE</p>
-          <button onClick={this.handleShowEducation} className="button">
+          <a onClick={this.handleShowEducation} className="button">
             Education
-          </button>
-          <button onClick={this.handleShowWork} className="button">
+          </a>
+          <a onClick={this.handleShowWork} className="button">
             Work
-          </button>
+          </a>
           {this.state.showEducation ? <Education /> : <Work />}
         </div>
       </div>
