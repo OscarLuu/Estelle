@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  NavLink
+} from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -8,15 +13,20 @@ const Nav = () => {
         <img src={require("../svg/heart.png")} className="nav-heart" />
 
         <div className="nav-items">
-          <Link className="block" to="/">
+          <NavLink exact activeClassName="active" className="block" to="/">
             H<p className="hidden">OME</p>
-          </Link>
-          <Link className="block" to="/experience">
+          </NavLink>
+          <NavLink activeClassName="active" className="block" to="/experience">
             E<p className="hidden">XPERIENCE</p>
-          </Link>
-          <Link className="block" to="/">
+          </NavLink>
+          <NavLink
+            exact
+            activeClassName="active"
+            className="block"
+            to="/contact"
+          >
             C<p className="hidden">ONTACT</p>
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>

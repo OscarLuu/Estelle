@@ -25,6 +25,7 @@ body {
   color: black;
   margin-right: 6px;
   font-size: 18px;
+  border-radius: 10px;
 }
 
 .hidden {
@@ -98,6 +99,50 @@ body {
 
 .red:hover {
   color: hsl(360, 79%, 32%);
+}
+
+.experience {
+  margin-left: 120px;
+  margin-top: -90vh;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  word-spacing: 12px;
+  color: hsl(360, 79%, 32%);
+}
+.button {
+  border-radius: 10px;
+  font-family: "Neuton", sans-serif;
+  width: 120px;
+  height: 30px;
+  border: 1px solid black;
+  font-size: 20px;
+  box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+  background-color: white;
+  width: 120px;
+  font-weight: 700;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.19);
+  letter-spacing: 0.06em;
+  color: hsl(360, 79%, 32%);
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.education-div {
+  border: 2px solid black;
+  width: 30vw;
+  border-radius: 10px;
+}
+
+.active {
+  background: hsl(360, 92%, 20%);
+  color: white;
 }
 
 @media all and (max-width: 1690px) {
