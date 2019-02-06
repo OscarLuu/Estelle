@@ -11,10 +11,10 @@ const Home = () => {
           time.
         </p>
       </div>
-      {/*
+
       <div className="heart">
         <img src={require("../svg/heart.png")} className="heart-image" />
-      </div>*/}
+      </div>
     </div>
   );
 };

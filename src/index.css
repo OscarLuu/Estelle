@@ -78,7 +78,7 @@ body {
 }
 
 .heart {
-  margin-top: -40vh;
+  margin-top: -30vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -104,6 +104,7 @@ body {
 .experience {
   margin-left: 120px;
   margin-top: -90vh;
+  max-width: 600px;
 }
 
 .title {
@@ -113,33 +114,61 @@ body {
   word-spacing: 12px;
   color: hsl(360, 79%, 32%);
 }
-.button {
-  font-family: "Neuton", sans-serif;
-  font-size: 20px;
-  padding-left: 10px;
-  margin-top: -60px;
-}
-
-.button:hover {
-  background-color: white;
-  width: 120px;
-  font-weight: 700;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.19);
-  letter-spacing: 0.06em;
-  color: hsl(360, 79%, 32%);
-  border: 2px solid black;
-  cursor: pointer;
-}
 
 .education-div {
-  border: 2px solid black;
-  width: 30vw;
-  border-radius: 10px;
+  max-width: 600px;
 }
 
 .active {
   background: hsl(360, 92%, 20%);
   color: white;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.tab-styling {
+  font-size: 20px;
+  font-family: "Neuton", sans-serif;
+  letter-spacing: 0.05em;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.19);
+}
+
+.tab-styling:hover {
+  cursor: pointer;
+}
+
+.tab {
+  margin-top: -24px;
+  margin-bottom: 12px;
+}
+
+.spacing {
+  margin-left: 12px;
+}
+
+.border-text {
+  border: 1px solid hsl(209, 61%, 16%);
+  max-height: 900px;
+  max-width: 600px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.summary {
+  width: 90%;
+  padding: 12px;
+}
+
+.sfsu-picture {
+  width: 96px;
+  height: auto;
+  margin-left: 14px;
+  vertical-align: middle;
 }
 
 @media all and (max-width: 1690px) {
