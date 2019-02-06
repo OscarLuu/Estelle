@@ -10,8 +10,6 @@ const Nav = () => {
   return (
     <div>
       <div className="navbar">
-        <img src={require("../svg/heart.png")} className="nav-heart" />
-
         <div className="nav-items">
           <NavLink exact activeClassName="active" className="block" to="/">
             H<p className="hidden">OME</p>

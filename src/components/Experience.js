@@ -8,14 +8,16 @@ const Work = () => {
 const Education = () => {
   return (
     <div className="education-div">
-      <p className="University">
-        San Francisco State University
-        <span>
-          <img src={require("../svg/sfsu.png")} className="sfsu-picture" />
-        </span>
-      </p>
-      <p>Bachelor of Science in Nursing</p>
-      <p>GPA: 3.95</p>
+      <div className="text">
+        <p className="text-size">
+          San Francisco State University
+          <span>
+            <img src={require("../svg/sfsu.png")} className="sfsu-picture" />
+          </span>
+        </p>
+        <p className="margin-up text-size">Bachelor of Science in Nursing</p>
+        <p className="text-size">GPA: 3.95</p>
+      </div>
     </div>
   );
 };
@@ -81,9 +83,10 @@ class Experience extends Component {
             {this.state.showEducation ? <Education /> : <Work />}
           </div>
         </div>
+        {/*
         <div className="heart">
           <img src={require("../svg/heart.png")} className="heart-image" />
-        </div>
+            </div>*/}
       </div>
     );
   }

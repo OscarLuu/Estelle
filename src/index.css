@@ -1,31 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Neuton:200,300,400,400i,700,800");
 body {
   font-family: "Neuton", sans-serif;
+  background: hsl(209, 28%, 39%);
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-  border-right: 1px solid;
-  width: 52px;
+  width: 62px;
   margin-top: -8px;
   height: 100vh;
   box-shadow: 2px 0 2px rgba(0, 0, 0, 0.19);
+  background: hsl(211, 39%, 23%);
 }
 
 .nav-items {
-  padding-top: 28vh;
+  padding-top: 34vh;
 }
 
 .block {
   margin-bottom: 6px;
   text-align: center;
-  border: 1px solid;
   display: block;
   padding: 10px 0;
   text-decoration: none;
-  color: black;
   margin-right: 6px;
-  font-size: 18px;
+  font-size: 24px;
   border-radius: 10px;
+  color: hsl(211, 27%, 70%);
 }
 
 .hidden {
@@ -36,17 +38,17 @@ body {
   display: inline;
   font-weight: 700;
   font-size: 18px;
-  color: hsl(360, 79%, 32%);
+  color: hsl(274, 87%, 37%);
 }
 
 .block:hover {
-  background-color: white;
+  background-color: hsl(211, 39%, 23%);
+  border: 1px solid hsl(209, 34%, 30%);
   width: 125px;
   font-weight: 700;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.19);
   letter-spacing: 0.06em;
-  color: hsl(360, 79%, 32%);
-  border: 1px solid black;
+  color: hsl(274, 87%, 37%);
 }
 
 .home {
@@ -56,11 +58,11 @@ body {
 .name {
   padding-left: 100px;
   margin-top: -65vh;
-  font-size: 36px;
+  font-size: 64px;
   font-weight: 500;
   letter-spacing: 0.12em;
   word-spacing: 12px;
-  color: hsl(360, 79%, 32%);
+  color: white;
 }
 
 .description {
@@ -112,16 +114,18 @@ body {
   font-weight: 500;
   letter-spacing: 0.12em;
   word-spacing: 12px;
-  color: hsl(360, 79%, 32%);
+  color: hsl(274, 87%, 37%);
 }
 
 .education-div {
   max-width: 600px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .active {
-  background: hsl(360, 92%, 20%);
-  color: white;
+  color: hsl(273, 80%, 49%);
+  font-weight: 700;
 }
 
 .bold {
@@ -142,6 +146,10 @@ body {
   cursor: pointer;
 }
 
+.tab-styling:active {
+  transform: translateY(1px);
+}
+
 .tab {
   margin-top: -24px;
   margin-bottom: 12px;
@@ -154,21 +162,28 @@ body {
 .border-text {
   border: 1px solid hsl(209, 61%, 16%);
   max-height: 900px;
-  max-width: 600px;
+  max-width: 450px;
   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.19);
   border-radius: 5px;
-}
-
-.summary {
-  width: 90%;
-  padding: 12px;
 }
 
 .sfsu-picture {
   width: 96px;
   height: auto;
-  margin-left: 14px;
+  margin-left: 46px;
   vertical-align: middle;
+}
+
+.margin-up {
+  margin-top: -48px;
+}
+
+.text {
+  margin-left: 48px;
+}
+
+.text-size {
+  font-size: 18px;
 }
 
 @media all and (max-width: 1690px) {
