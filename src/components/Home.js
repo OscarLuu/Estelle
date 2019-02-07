@@ -4,12 +4,16 @@ const Home = () => {
   return (
     <div className="home">
       <div className="text">
-        <p className="name">ESTELLE T. JOHNSON</p>
-        <p className="description">BSN, RN</p>
-        <p className="quote">
-          Improving the world, one <span className="red">patient</span> at a
-          time.
+        <p className="name fade-in one">ESTELLE T. JOHNSON</p>
+        <p className="description fade-in two">BSN, RN</p>
+        <p className="quote fade-in three">
+          Improving the world, one{" "}
+          <span className="red fade-in four">patient</span> at a time.
         </p>
+      </div>
+
+      <div className="heart fade-in five">
+        <img src={require("../svg/heart.png")} className="heart-image" />
       </div>
     </div>
   );
