@@ -5,6 +5,11 @@ import {
   Link,
   NavLink
 } from "react-router-dom";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faStar, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faHome, faStar, faEnvelope);
 
 const Nav = () => {
   return (
@@ -12,10 +17,11 @@ const Nav = () => {
       <div className="navbar">
         <div className="nav-items">
           <NavLink exact activeClassName="active" className="block" to="/">
-            H<p className="hidden">OME</p>
+            <FontAwesomeIcon icon="home" />
+            <span className="hidden">HOME</span>
           </NavLink>
           <NavLink activeClassName="active" className="block" to="/experience">
-            E<p className="hidden">XPERIENCE</p>
+            <FontAwesomeIcon icon="star" />
           </NavLink>
           <NavLink
             exact
@@ -23,7 +29,7 @@ const Nav = () => {
             className="block"
             to="/contact"
           >
-            C<p className="hidden">ONTACT</p>
+            <FontAwesomeIcon icon="envelope" />
           </NavLink>
         </div>
       </div>
