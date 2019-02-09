@@ -15,6 +15,7 @@ const Nav = () => {
   return (
     <div>
       <div className="navbar">
+        <img src={require("../svg/heart.png")} className="nav-heart" />
         <div className="nav-items">
           <NavLink exact activeClassName="active" className="block" to="/">
             <FontAwesomeIcon icon="home" />
@@ -22,6 +23,7 @@ const Nav = () => {
           </NavLink>
           <NavLink activeClassName="active" className="block" to="/experience">
             <FontAwesomeIcon icon="star" />
+            <span className="hidden">RESUME</span>
           </NavLink>
           <NavLink
             exact
@@ -30,6 +32,7 @@ const Nav = () => {
             to="/contact"
           >
             <FontAwesomeIcon icon="envelope" />
+            <span className="hidden">CONTACT</span>
           </NavLink>
         </div>
       </div>

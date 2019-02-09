@@ -9,7 +9,7 @@ const Education = () => {
   return (
     <div className="education-div">
       <div className="text">
-        <p className="text-size">
+        <p className="text-size-title">
           San Francisco State University
           <span>
             <img src={require("../svg/sfsu.png")} className="sfsu-picture" />
@@ -58,7 +58,7 @@ class Experience extends Component {
         <div className="experience">
           <p className="title">EXPERIENCE</p>
           <div className="tab">
-            <button
+            <a
               onClick={this.handleShowEducation}
               className={
                 this.state.tabBoldEducation
@@ -67,8 +67,8 @@ class Experience extends Component {
               }
             >
               EDUCATION
-            </button>
-            <button
+            </a>
+            <a
               onClick={this.handleShowWork}
               className={
                 this.state.tabBoldWork
@@ -77,16 +77,15 @@ class Experience extends Component {
               }
             >
               WORK
-            </button>
+            </a>
           </div>
           <div className="border-text">
             {this.state.showEducation ? <Education /> : <Work />}
           </div>
         </div>
-        {/*
         <div className="heart">
           <img src={require("../svg/heart.png")} className="heart-image" />
-            </div>*/}
+        </div>
       </div>
     );
   }
