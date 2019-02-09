@@ -11,7 +11,6 @@ const Home = () => {
           <span className="red fade-in four">patient</span> at a time.
         </p>
       </div>
-
       <div className="heart fade-in five">
         <img src={require("../svg/heart.png")} className="heart-image" />
       </div>

@@ -150,6 +150,7 @@ body {
   max-width: 600px;
   display: flex;
   justify-content: space-between;
+  padding: 20px 20px;
 }
 
 .active {
@@ -200,21 +201,23 @@ body {
   vertical-align: middle;
 }
 
-.margin-up {
-  margin-top: -48px;
-}
-
 .text {
   margin-left: 48px;
 }
 
 .text-size {
   font-size: 18px;
+  margin: 0;
 }
 
 .text-size-title {
   font-weight: 600;
   font-size: 18px;
+  margin: 0;
+}
+
+.description-school-div {
+  margin-top: -24px;
 }
 
 @media all and (max-width: 1690px) {

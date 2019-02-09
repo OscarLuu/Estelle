@@ -15,8 +15,12 @@ const Education = () => {
             <img src={require("../svg/sfsu.png")} className="sfsu-picture" />
           </span>
         </p>
-        <p className="margin-up text-size">Bachelor of Science in Nursing</p>
-        <p className="text-size">GPA: 3.95</p>
+        <div className="description-school-div">
+          <p className="text-size">Bachelor of Science in Nursing</p>
+          <p className="text-size">Summa Cum Laude</p>
+          <p className="text-size">GPA: 3.95</p>
+        </div>
+        <hr />
       </div>
     </div>
   );
