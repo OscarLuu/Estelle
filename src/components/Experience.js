@@ -271,6 +271,145 @@ const Work = () => {
             </p>
           </div>
         </div>
+
+        <div className="title-div2">
+          <img
+            src={require("../svg/weisman.png")}
+            className="capitol fade-in three spacing"
+          />
+          <div className="hospital">
+            <p className="text-size-title school fade-in three">
+              Weisman Medical
+            </p>
+            <div className="description-school-div">
+              <p className="text-size fade-in three sub-title">
+                Medical Assistant
+              </p>
+              <p className="text-size fade-in four sub-title margin-bot">
+                May 2017 - August 2017
+              </p>
+              <p className="text-size fade-in four">
+                • Efficient handling of administrative duties (e.g., answering
+                phones, scheduling appointments, maintaining medical records,
+                processing patients, billing and bookkeeping) that allowed
+                doctors and nursing staff to focus on the health concerns of
+                their patients
+              </p>
+              <p className="text-size fade-in four">
+                • Demonstrated proficiency in taking patient medical histories
+                and vital signs, as well as in performing capsule endoscopies,
+                injections and diagnostic procedures and body measurements
+              </p>
+              <p className="text-size fade-in four">
+                • Prepared patient charts, admissions, and consent forms
+                accurately and neatly for the health care facility while
+                maintaining patient and physician confidentiality
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="title-div2">
+          <img
+            src={require("../svg/starbucks.png")}
+            className="sanmateo fade-in three spacing"
+          />
+          <div className="hospital">
+            <p className="text-size-title school fade-in three">Starbucks</p>
+            <div className="description-school-div">
+              <p className="text-size fade-in three sub-title">Barista</p>
+              <p className="text-size fade-in four sub-title margin-bot">
+                January 2016 - August 2018
+              </p>
+              <p className="text-size fade-in four">
+                • Efficient handling of administrative duties (e.g., answering
+                phones, scheduling appointments, maintaining medical records,
+                processing patients, billing and bookkeeping) that allowed
+                doctors and nursing staff to focus on the health concerns of
+                their patients
+              </p>
+              <p className="text-size fade-in four">
+                • Demonstrated proficiency in taking patient medical histories
+                and vital signs, as well as in performing capsule endoscopies,
+                injections and diagnostic procedures and body measurements
+              </p>
+              <p className="text-size fade-in four">
+                • Prepared patient charts, admissions, and consent forms
+                accurately and neatly for the health care facility while
+                maintaining patient and physician confidentiality
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="title-div2 spacing">
+          <img src={require("../svg/rok.jpeg")} className="rok fade-in three" />
+          <div className="hospital">
+            <p className="text-size-title school fade-in three spacing">
+              Rok Steakhouse
+            </p>
+            <div className="description-school-div">
+              <p className="text-size fade-in three sub-title">Server </p>
+              <p className="text-size fade-in four sub-title margin-bot">
+                May 2017 - August 2017
+              </p>
+              <p className="text-size fade-in four">
+                • Efficient handling of administrative duties (e.g., answering
+                phones, scheduling appointments, maintaining medical records,
+                processing patients, billing and bookkeeping) that allowed
+                doctors and nursing staff to focus on the health concerns of
+                their patients
+              </p>
+              <p className="text-size fade-in four">
+                • Demonstrated proficiency in taking patient medical histories
+                and vital signs, as well as in performing capsule endoscopies,
+                injections and diagnostic procedures and body measurements
+              </p>
+              <p className="text-size fade-in four">
+                • Prepared patient charts, admissions, and consent forms
+                accurately and neatly for the health care facility while
+                maintaining patient and physician confidentiality
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="title-div2 space">
+          <img
+            src={require("../svg/rokko.png")}
+            className="capitol fade-in spacing three"
+          />
+          <div className="hospital">
+            <p className="text-size-title school fade-in three ">
+              Rokko Fine Japanese Cuisine
+            </p>
+            <div className="description-school-div">
+              <p className="text-size fade-in three sub-title">
+                Medical Assistant
+              </p>
+              <p className="text-size fade-in four sub-title margin-bot">
+                May 2017 - August 2017
+              </p>
+              <p className="text-size fade-in four">
+                • Efficient handling of administrative duties (e.g., answering
+                phones, scheduling appointments, maintaining medical records,
+                processing patients, billing and bookkeeping) that allowed
+                doctors and nursing staff to focus on the health concerns of
+                their patients
+              </p>
+              <p className="text-size fade-in four">
+                • Demonstrated proficiency in taking patient medical histories
+                and vital signs, as well as in performing capsule endoscopies,
+                injections and diagnostic procedures and body measurements
+              </p>
+              <p className="text-size fade-in four">
+                • Prepared patient charts, admissions, and consent forms
+                accurately and neatly for the health care facility while
+                maintaining patient and physician confidentiality
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
