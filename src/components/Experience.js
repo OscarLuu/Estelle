@@ -1,6 +1,14 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+const Clinicals = () => {
+  return (
+    <div>
+      <p>Clinicals</p>
+    </div>
+  );
+};
+
 const Work = () => {
   return <p>Work</p>;
 };
@@ -17,10 +25,18 @@ const Education = () => {
         </p>
         <div className="description-school-div">
           <p className="text-size">Bachelor of Science in Nursing</p>
-          <p className="text-size">Summa Cum Laude</p>
-          <p className="text-size">GPA: 3.95</p>
+          <p className="text-size-title separate">Awards & Honors</p>
+          <p className="text-size">• Summa Cum Laude, 3.95 GPA</p>
+          <p className="text-size" />
+          <p className="text-size-title separate">Activities</p>
+          <p className="text-size">
+            • Nu Psi Chapter of Sigma Theta Tau International
+          </p>
+          <p className="text-size">
+            • SFSU NSA Director of Breakthrough to Nursing
+          </p>
+          <p className="text-size">• Hepatitis B Community Ambassador</p>
         </div>
-        <hr />
       </div>
     </div>
   );
@@ -32,18 +48,23 @@ class Experience extends Component {
     this.state = {
       showEducation: true,
       showWork: false,
+      showClinical: false,
+      tabBoldClinical: false,
       tabBoldWork: false,
       tabBoldEducation: true
     };
     this.handleShowEducation = this.handleShowEducation.bind(this);
     this.handleShowWork = this.handleShowWork.bind(this);
+    this.handleShowClinicals = this.handleShowClinicals.bind(this);
   }
   handleShowEducation() {
     this.setState({
       showEducation: true,
       showWork: false,
+      showClinical: false,
       tabBoldEducation: true,
-      tabBoldWork: false
+      tabBoldWork: false,
+      tabBoldClinical: false
     });
   }
 
@@ -51,8 +72,21 @@ class Experience extends Component {
     this.setState({
       showEducation: false,
       showWork: true,
+      showClinical: false,
       tabBoldEducation: false,
-      tabBoldWork: true
+      tabBoldWork: true,
+      tabBoldClinical: false
+    });
+  }
+
+  handleShowClinicals() {
+    this.setState({
+      showEducation: false,
+      showWork: false,
+      showClinical: true,
+      tabBoldEducation: false,
+      tabBoldWork: false,
+      tabBoldClinical: true
     });
   }
 
@@ -82,9 +116,21 @@ class Experience extends Component {
             >
               WORK
             </a>
+            <a
+              onClick={this.handleShowClinicals}
+              className={
+                this.state.tabBoldClinical
+                  ? "bold tab-styling spacing"
+                  : "regular tab-styling spacing"
+              }
+            >
+              CLINICALS
+            </a>
           </div>
           <div className="border-text">
-            {this.state.showEducation ? <Education /> : <Work />}
+            {this.state.showEducation ? <Education /> : null}
+            {this.state.showClinical ? <Clinicals /> : null}
+            {this.state.showWork ? <Work /> : null}
           </div>
         </div>
         <div className="heart">
