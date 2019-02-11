@@ -12,7 +12,7 @@ const Home = () => {
         </p>
       </div>
       <div className="heart fade-in five">
-        <img src={require("../svg/heart.png")} className="heart-image" />
+        <img src={require("../svg/heart.png")} className="heart-image-home" />
       </div>
     </div>
   );
