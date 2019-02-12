@@ -13,8 +13,8 @@ class App extends Component {
         <div>
           <Route path="/" component={Nav} />
           <Route exact path="/" component={Home} />
-          <Route exact path="/experience" component={Experience} />
-          <Route exact path="/contact" component={Contact} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/contact" component={Contact} />
         </div>
       </Router>
     );

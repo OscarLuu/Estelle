@@ -350,35 +350,12 @@ body {
   overflow: hidden;
 }
 
-/* .button-text {
-  display: none;
-  font-weight: 700;
-} */
-
-/* .contact-button:hover .button-text {
-  display: inline;
-}
-
-.contact-button:hover .icon {
-  display: none;
-} */
-
-.new {
-  opacity: 0;
-  display: none;
-}
-
-.old,
-.new {
-  transition: opacity 0.5s linear;
-}
-
-.contact-button:hover .old {
-  opacity: 0;
-}
-
-.contact-button:hover .new {
-  opacity: 1;
+.lulu {
+  max-width: 500px;
+  height: auto;
+  margin: -300px 0 0 1150px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.19);
 }
 
 @media all and (max-width: 1690px) {
@@ -393,6 +370,10 @@ body {
   }
 
   .heart-image {
+    display: none;
+  }
+
+  .lulu {
     display: none;
   }
 }
