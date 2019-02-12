@@ -191,14 +191,15 @@ const Clinicals = () => {
               August 2017 - December 2017
             </p>
             <p className="text-size fade-in four">
-              • Carefully observed changes in fetal heart rate and maternal
-              heart rate and contractions using electronic monitoring
+              • Documented observations of patient's behavior and status to the
+              administered
             </p>
             <p className="text-size fade-in four">
-              • Provided care for babies immediately after birth
+              • Provided therapeutic interactions with patient to assist them in
+              identifying sources of anxiety
             </p>
             <p className="text-size fade-in four">
-              • Prepped room and delivery table according to maternal progress
+              • Maintained the therapeutic milieu using acceptable standards
             </p>
           </div>
         </div>
@@ -221,14 +222,14 @@ const Clinicals = () => {
               January 2017 - May 2017
             </p>
             <p className="text-size fade-in four">
-              • Carefully observed changes in fetal heart rate and maternal
-              heart rate and contractions using electronic monitoring
+              • Administer medication such as oral medication and subcutaneous
+              injection
             </p>
             <p className="text-size fade-in four">
-              • Provided care for babies immediately after birth
+              • Experience with Pyxis Medstation System
             </p>
             <p className="text-size fade-in four">
-              • Prepped room and delivery table according to maternal progress
+              • Promote wound healing through cleaning and applying new dressing
             </p>
           </div>
         </div>
