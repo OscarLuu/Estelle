@@ -20,7 +20,7 @@ const Contact = () => {
           </button>
         </a>
       </div>
-      <img src={require("../svg/LuluAww.JPG")} className="lulu fade-in three" />
+      <img src={require("../svg/estelle.jpg")} className="lulu fade-in three" />
     </div>
   );
 };
