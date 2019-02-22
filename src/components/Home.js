@@ -5,7 +5,7 @@ const Home = () => {
     <div className="home">
       <div className="text">
         <p className="name fade-in one">ESTELLE T. JOHNSON</p>
-        <p className="description fade-in two">BSN, RN</p>
+        <p className="description fade-in two">RN, BSN, PHN</p>
         <p className="quote fade-in three">
           Improving the world, one{" "}
           <span className="red fade-in four">patient</span> at a time.

@@ -410,13 +410,20 @@ const Education = () => {
           <p className="text-size-title separate fade-in three">
             Certifications
           </p>
-          <p className="text-size fade-in four">• Registered Nurse </p>
-          <p className="text-size fade-in four">• Basic Life Support</p>
           <p className="text-size fade-in four">
-            • Pediatric Advanced Life Support
+            • Registered Nurse License #9518227 - <strong>Current</strong>
           </p>
           <p className="text-size fade-in four">
-            • Advanced Cardiac Life Support
+            • Public Health Nurse License #557390 - <strong>Current</strong>
+          </p>
+          <p className="text-size fade-in four">
+            • Basic Life Support - <strong>Expires 01/2021</strong>
+          </p>
+          <p className="text-size fade-in four">
+            • Pediatric Advanced Life Support - <strong>Expires 01/2021</strong>
+          </p>
+          <p className="text-size fade-in four">
+            • Advanced Cardiac Life Support - <strong>Expires 01/2021</strong>
           </p>
         </div>
       </div>
